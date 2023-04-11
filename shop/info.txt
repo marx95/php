@@ -1,0 +1,2 @@
+$vid = Categoria do Item
+$vindex = indice do item (a numeraçao do item dentro de uma categoria)

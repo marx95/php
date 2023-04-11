@@ -1,0 +1,400 @@
+html, body {
+	height: 100%;
+}
+body {
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: #000;
+	margin: 0px;
+	font: 12px 'Oswald', Arial, FreeSans, sans-serif;
+	color:#FFF;
+	text-shadow: 0px 0px 3px #000;
+}
+a {
+	color: #970026;
+	text-decoration: none;
+}
+a:hover {
+	color: #eca422;
+	text-decoration: none;
+}	
+a:visited {
+	color: #970026;
+	text-decoration: none;
+}
+b {
+	font-weight: bold;
+}
+a, input, select {
+	outline: none;
+}
+input {
+	background-color: #FFF;
+	border-radius: 6px;
+	border: 1px solid #f2f2f2;
+	height: 22px;
+	color: #000;
+	font-size: 11px;
+	letter-spacing: 1px;
+	padding-left: 5px;
+	min-width: 132px;
+	width: 132px;
+}
+input[type="button"] {
+	background-color: #7d0020;
+	border-radius: 6px;
+	border: 1px solid #970027;
+	height: 22px;
+	line-height: 18px;
+	color: #FFF;
+	font-size: 11px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	min-width: 132px;
+	width: 132px;
+}
+input[type="button"]:hover {
+	background-color: #970027;
+}
+input[type="submit"] {
+	background-color: #7d0020;
+	border-radius: 6px;
+	border: 1px solid #970027;
+	height: 22px;
+	line-height: 18px;
+	color: #FFF;
+	font-size: 11px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	min-width: 132px;
+	width: 132px;
+}
+input[type="submit"]:hover {
+	background-color: #970027;
+}
+select {
+	background-color: #FFF;
+	border-radius: 6px;
+	border: 1px solid #f2f2f2;
+	height: 26px;
+	color: #000;
+	font-size: 11px;
+	letter-spacing: 1px;
+	padding-left: 5px;
+	min-width: 140px;
+	width: 140px;
+	cursor: pointer;
+}
+textarea {
+	border-spacing: 0px;
+	padding: 0px;
+	border: 0px;
+}
+textarea, input, select {
+	display: block;
+	margin: 0px auto;	
+}
+#Menu_Topo {
+	height: 44px;
+	width: 100%;
+	background-image: url(../img/menu_topo.jpg);
+	box-shadow: 0 0 3px 3px #000;
+}
+#Menu_Topo div {
+	width: 918px;
+	margin: 0px auto;
+}
+#Menu_Topo_BT {
+	display: table-cell;
+	height: 44px;
+	width: 130px;
+	background-image: none;
+	border-right:1px dotted #333;
+	
+	font-size: 12px;
+	color:#FFF;
+	letter-spacing: 1px;
+	
+	text-align: center;
+	line-height: 44px;
+	cursor: pointer;
+}
+#Menu_Topo_BT:hover {
+	background-image: url(../img/menu_topo2.jpg);
+	background-repeat: repeat-x;
+}
+#Menu_Topo_BT ul {
+	display: block;
+	position: absolute;
+	visibility: hidden;
+	
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: 25px;
+	
+}
+#Menu_Topo_BT li {
+	width: 160px;
+	background-image: url(../img/menu_topo_sub_bg.png);
+	margin: 0px;
+	padding: 3px;
+	padding-left: 10px;
+	text-align: left;
+	border-bottom: 1px dotted #000;
+}
+#Menu_Topo_BT li:hover {
+	background-image: url(../img/menu_topo_sub_bg2.png);
+}
+#Menu_Topo_BT li:last-child {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border: 0px;
+}
+#Menu_Topo_BT a {
+	text-decoration: none;
+	color: #FFF;
+}
+#Menu_Topo_BT a:hover {
+	color: #FFF;
+}
+#Menu_Topo_BT a:visited {
+	color: #FFF;
+}
+#Banner {
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 918px;
+	height: 223px;
+	margin: 0px auto;
+}
+#Corpo {
+	width: 918px;
+	margin: 0px auto;
+	margin-top: -26px;
+}
+#Lateral {
+	display: table-cell;
+	width: 246px;
+}
+#Lateral table:first-child {
+	margin-top: 0px;
+}
+#Lateral table {
+	margin: 0px auto;
+	margin-top: 10px;
+	border-spacing: 1px;	
+	padding: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color:#FFF;
+	
+	background-color: #191919;
+	outline: 1px solid #191919;
+	border: 1px solid #000;
+	box-shadow: 0 0 3px 3px #000;
+}
+#Lateral td
+{
+	width: 246px;
+	border: 1px solid #191919;
+	background-color: #191919;
+	height: 25px;
+	line-height: 25px;
+	padding: 0px;
+}
+#Lateral tr:first-child td
+{
+	border: 1px solid #303030;
+	background-color: #282828;
+	height: 25px;
+	line-height: 25px;
+	padding: 0px;
+	text-align: left;
+	padding-left: 5px;
+	font-weight: bold;
+}
+#Lateral tr:last-child td
+{
+	border: 1px solid #191919;
+	background-color: #191919;
+	height: 25px;
+	line-height: 25px;
+	padding: 0px;
+}
+#Paginas_Centro {
+	margin: 0px auto;
+	margin-top: 10px;	
+}
+#Resultado {
+	margin: 0px auto;
+	margin-top: 10px;
+	display: block;
+	text-align: center;
+}
+#Centro {
+	vertical-align: top;
+	display: table-cell;
+	width: 672px;
+}
+#Centro table:first-child {
+	margin-top: 0px;
+}
+#Centro table {
+	width: 650px;
+	margin: 0px auto;
+	margin-top: 10px;
+	border-spacing: 1px;	
+	padding: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+	font-size: 12px;
+	color:#FFF;
+	
+	background-color: #191919;
+	outline: 1px solid #191919;
+	border: 1px solid #000;
+	box-shadow: 0 0 3px 3px #000;
+}
+#Centro td {
+	padding-left: 15px;
+	border: 1px solid #191919;
+	background-color: #191919;
+	height: 26px;
+	line-height: 26px;
+	padding: 0px;
+}
+#Centro tr:first-child td {
+	border: 1px solid #303030;
+	background-color: #282828;
+	height: 26px;
+	line-height: 26px;
+	padding: 0px;
+	text-align: left;
+	padding-left: 5px;
+	font-weight: bold;
+}
+#Centro tr:last-child td {
+	border: 1px solid #191919;
+	background-color: #191919;
+	height: 26px;
+	line-height: 26px;
+	padding: 0px;
+}
+#Rodape {
+	width: 100%;
+	height: 45px;
+	background-image: url(../img/rodape.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: #191919;
+	margin: 0px auto;
+	margin-top: 10px;
+	line-height: 45px;
+	text-align: center;
+}
+#Preload {
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	top: -100px;
+	left: -100px;
+}
+#Preload img {
+	width: 1px;
+	height: 1px;
+	border: 0px;
+}
+#Cookie {
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	top: -100px;
+	left: -100px;
+}
+#ToolTip {
+	position: absolute;
+	padding: 8px;
+	left: -50px;
+	top: -50px;
+	
+	visibility: visible;
+	border: 0px;
+	border-radius: 3px;
+	background-color: none;
+	color: #359902;
+	text-shadow: 0px 0px 5px #000;
+	text-align: center;
+	box-shadow:         inset 0 0 10px #359902;
+	
+	-webkit-transition: 0s ease-in;
+	-moz-transition: 0s ease-in;
+	-o-transition: 0s ease-in;
+	transition: 0s ease-in;
+}
+#PopFace {
+	position: absolute;
+	left: 50%;
+	margin-left: -250px;
+	top: 20%;
+	width: 500px;
+	height: 322px;
+	background-color: #191919;
+	border: 1px solid #000;
+	outline: 1px solid #191919;
+	text-align: center;
+}
+#Sucesso {
+	background-color: #191719;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 0px;
+	border-radius: 5px;
+	color: #359902;
+	
+	text-shadow: 0px 0px 7px #359902;
+	box-shadow:         inset 0 0 10px #359902;
+	
+	text-align: center;
+	display: block;
+	width: 380px;
+    margin: 0px auto;
+	margin-top: 5px;
+}
+#Falha {
+	background-color: #191719;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 0px;
+	border-radius: 3px;
+	color: #df0000;
+	
+	-moz-box-shadow:    inset 0 0 7px #df0000;
+	-webkit-box-shadow: inset 0 0 7px #df0000;
+	box-shadow:         inset 0 0 7px #df0000;
+	text-shadow: 0px 0px 7px #359902;
+	
+	text-align: center;
+	display: block;
+	width: 380px;
+    margin: 0px auto;
+	margin-top: 5px;
+}
+#Img_BoxCad {
+	cursor: pointer;
+	border: 2px solid #191919;
+	border-radius: 3px;
+}
+#Img_BoxCad:hover {
+	border: 2px solid #970027;
+}

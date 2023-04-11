@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(fonts/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Cuprum';
+  font-style: normal;
+  font-weight: 400;
+  src:url(fonts/cuprum.eot);
+  src:url(fonts/cuprum.eot?#iefix) format('embedded-opentype'),
+  url(fonts/sp1_LTSOMWWV0K5VTuZzvQ.woff) format('woff'),
+  url(fonts/cuprum.ttf) format('truetype'),
+  url(fonts/cuprum.svg#Cuprum) format('svg');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(fonts/-g5pDUSRgvxvOl5u-a_WHw.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Monotype Corsiva';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Monotype Corsiva'), local('Monotype Corsiva'), url(fonts/MTCORSVA.woff) format('woff');
+}
+

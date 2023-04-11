@@ -1,0 +1,135 @@
+0 = Lorência
+Bar de Lorência - 125/125
+(7-140 secret)
+Porto - 237/240
+Fogueiras - 223/76
+Ruínas - 178/32
+
+1 = Dungeon
+Level 2 - 233/126
+Level 3 - 3/85
+(bullroom: 119/46)
+
+2 = Devias
+Cidade - 222/62
+Devias 2 - 10/25 ou 15/25
+Fogueiras:
+- 14/79
+- 109/243
+- 160/234
+- 191/154
+- 241/196
+
+3 = Noria
+Cidade - 176/110
+Chaos machine - 178/102
+Mulher das poções - 174/123
+Loja de armas - 196/123
+
+4 = Losttower 
+LT1 - 208/77
+LT2 - 241/237
+LT3 - 86/167
+LT4 - 87/86
+LT5 - 130/53
+LT6 - 53/53
+LT7 - 8/86
+
+5 = Exilio
+(Não mova da erro)
+
+6 = Arena
+Campo de soccer - 63/160
+Ao lado do campo - 73/162
+Bau - 63/44
+Zaikan - 98/115
+Orcs - 11/115
+Secreto - 114/116
+
+7 = Atlans
+Cidade - 24/19
+
+8 = Tarkan
+Cidade - 187/58
+Tarkan 2 - 10/200
+
+9 = Devil Square
+
+10 = Icarus
+Start - 15/13
+DPH - 47/205
+Local onde ficam as Phoenix - 44/231
+
+11 = Blood Castle I
+Start: 15/13 End: 15/94
+12 = Blood Castle II
+Start: 15/13 End: 15/94
+13 = Blood Castle III 
+Start: 15/13 End: 15/94
+14 = Blood Castle IV 
+Start: 15/13 End: 15/94
+15 = Blood Castle V
+Start: 15/13 End: 15/94
+16 = Blood Castle VI
+Start: 15/13 End: 15/94
+17 = Blood Castle VII
+Start: 15/13 - End: 15/94
+
+18 = Chaos Castle I
+Start: 25/105
+19 = Chaos Castle II
+Start: 25/105
+20 = Chaos Castle III
+Start: 25/105
+21 = Chaos Castle VI
+Start: 25/105
+22 = Chaos Castle V
+Start: 25/105
+23 = Chaos Castle VI
+Start: 25/105
+
+24 = Kalima I
+Start: 6/22
+25 = Kalima II
+Start: 6/22
+26 = Kalima III
+Start: 6/22
+27 = Kalima IV
+Start: 6/22
+28 = Kalima V
+Start: 6/22
+29 = Kalima VI
+Start: 6/22
+
+30 = Valley Of Loren
+Start - 30/40
+Ponte - 89/63
+Salão - 176/195
+
+31 = Land Of Trials
+Start - 61/10
+Depois da ponte - 60/60
+
+33 = Aida
+Cidade - 85/9
+Aida 2 - 198/152
+
+34 = CryWolf
+Estátua - 102/171
+
+37 = Kantru Remains
+Cidade - 23/215
+Kantru Remains 2 - 211/38
+
+38 = Kantru Relics
+Cidade - 78/105
+Core gate - 141/185
+
+40 = Silent Map
+220/12
+
+41 = Barracks
+30/74
+
+42 = Refuge
+83/173
